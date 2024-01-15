@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Using HTML CSS javaScript</title>
+    <link rel="stylesheet" href="stylesheet1.css">
+
+</head>
+
+<body>
+
+    <div id="outer">
+        <h2>Designed by Gajanan...</h2>
+        <div id="output"><input placeholder="0" type="text" name="number" id="input" readonly></div>
+
+        <button id="one" onclick="Value('1')">1</button>
+        <button id="two" onclick="Value('2')">2</button>
+        <button id="three" onclick="Value('3')">3</button>
+        <button id="four" onclick="Value('4')">4</button>
+        <button id="five" onclick="Value('5')">5</button>
+        <button id="six" onclick="Value('6')">6</button>
+        <button id="seven" onclick="Value('7')">7</button>
+        <button id="eight" onclick="Value('8')">8</button>
+        <button id="nine" onclick="Value('9')">9</button>
+        <button id="zero" onclick="Value('0')">0</button>
+        <button id="plus" onclick="Valuechar('+')">+</button>
+        <button id="minus" onclick="Valuechar('-')" value="-">-</button>
+        <button id="mul" onclick="Valuechar('*')">X</button>
+        <button id="div" onclick="Valuechar('/')">/</button>
+        <button id="mod" onclick="Valuechar('%')">%</button>
+        <button id="C" onclick="del()">DEL</button>
+        <button id="AC" onclick="Clear()">AC</button>
+        <button id="equal" onclick="result()">=</button>
+
+
+
+    </div>
+</body>
+<script src="calculator.js"> </script>
+
+</html>
