@@ -1,0 +1,337 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-weight: bolder;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0c0a0a00;
+}
+
+#outer{
+    position: relative;
+    top:50px;
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    background-color: cyan;
+    
+    
+
+}
+input{
+    height: 80px;
+    width: 360px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right:15px;
+    margin-bottom: 25px;
+    background-color:pink ;
+    border: 2px solid black;
+    text-align: end;
+    font-size:50px;
+   padding-right: 10px;
+}
+@media(width<425px){
+    #outer{
+        position: relative;
+        top:70px;
+        left: 5%;
+        right: 5%; 
+        height: 390px;
+        width: 385px;
+        border: 10px solid black;
+        background-color: cyan;
+    
+    }
+    input{
+        height: 80px;
+        width: 340px;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right:15px;
+        margin-bottom: 25px;
+        background-color:pink ;
+        border: 2px solid black;
+        text-align: end;
+        font-size:50px;
+       padding-right: 10px;
+    }
+}
+h2{
+    text-align: right;
+   font-family:  monospace;
+    font-weight: bolder;
+    font-size: small;
+    position:relative;
+    top: 95%;
+}
+
+
+
+
+
+ #one{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    top: 63px;
+   
+}
+#two{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    top: 63px;
+}
+#three{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    top: 65px;
+    
+}
+#four{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    top: 65px;
+}
+#five{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    top: 65px;
+}
+#six{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    top: 135px;
+    right: 320px;
+}
+#seven{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    top: 75px;
+    left: 66px;
+
+}
+#eight{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+top: 75px;
+left: 65px;
+}
+#nine{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    top: 75px;
+    left: 65px;
+
+}
+#zero{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top:10px ;
+    display: inline-block;
+    position: relative;
+    top: 75px;
+    left: 65px;
+    
+}
+#plus{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 63px;
+    left: 63px;
+    background-color: blanchedalmond;
+
+}
+#minus{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: blanchedalmond;
+
+}
+#mul{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+position: relative;
+left: 258px;
+bottom: 137px;
+background-color: blanchedalmond;
+}
+#div{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    bottom: 137px;
+    background-color: blanchedalmond;
+
+}
+#mod{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 137px;
+    background-color: blanchedalmond;
+}
+#C{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 137px;
+    right: 130px;
+    background-color: orange;
+
+}
+#AC{
+    height: 50px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 137px;
+    right: 258px;
+    background-color: red;
+
+}
+#equal{
+    height: 80px;
+    width: 50px;
+    background-color:lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: blanchedalmond;
+
+}
